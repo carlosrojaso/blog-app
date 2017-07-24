@@ -15,9 +15,9 @@ keytool -genkey -v -keystore <my-release-key.keystore> -alias <alias_name> -keya
 Change `<my-release-key.keystore>` and `<alias_name>` accordingly also in the `release.sh` file:
 
 ```
-ANDROID_ZIPALIGN="/path/to/Android/sdk/build-tools/21.1.2/zipalign"
-ANDROID_KEY_PATH="/path/to/keystore/my-release-key.keystore"
-ANDROID_KEY_ALIAS="alias_name"
+ANDROID_ZIPALIGN="/Users/carlosrojaso/Library/Android/sdk/build-tools/23.0.3/zipalign"
+ANDROID_KEY_PATH="/Users/carlosrojaso/Documents/Projects/blog-app/carlosrojas.keystore"
+ANDROID_KEY_ALIAS="carlosrojas"
 ```
 
 ### Keyboard adjustment
